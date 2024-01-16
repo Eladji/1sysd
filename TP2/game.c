@@ -6,8 +6,8 @@ int main() {
     int secret, guess;
     bool check = false;
     srand(time(NULL));
-    secret = rand() %10 +1;
-    printf("deviner le chiffre entre 10 et 1 \n");
+    secret = rand() %100 +1;
+    printf("deviner le chiffre entre 100 et 1 \n");
     scanf("%d" , &guess);
     while (check == false){
         if (guess == secret){
