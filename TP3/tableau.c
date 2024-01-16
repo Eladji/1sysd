@@ -1,8 +1,9 @@
 #include<stdio.h>
-int i, taille_tableau, valeur_max=0, valeur_min =0, tableau[10], valeur, add1 =0;
+#define MAX 50
+int i, taille_tableau, valeur_max=0, valeur_min =0, tableau[MAX], valeur, add1 =0;
 
 int main(){
-    printf("choisiez la taille de votre tableau (max 10)");
+    printf("choisiez la taille de votre tableau (max 50)");
     scanf("%d", &taille_tableau);
     tableau[taille_tableau];
     for (i = 0; i < taille_tableau; i++){
