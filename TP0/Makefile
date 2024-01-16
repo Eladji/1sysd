@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=hello hello2
+PROGS=hello hello2 random random-seed
 CC=gcc
 CFLAGS=
 
