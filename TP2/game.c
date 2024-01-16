@@ -15,9 +15,15 @@ int main() {
             printf("félicitation\n");
         }
         else {
-            printf("essai encore\n");
-            scanf("%d" , &guess);
+            if (guess > secret){
+                printf("c'est moins\n");
+                scanf("%d" , &guess);
+            }
+            else if (guess < secret){
+                printf("c'est plus\n");
+                scanf("%d" , &guess);
+            };
+            }
         }
     }
     
-}
