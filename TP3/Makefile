@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-PROGS=game machinguess
+PROGS=tableau
 CC=gcc
 CFLAGS=
 
